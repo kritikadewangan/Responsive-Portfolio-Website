@@ -1,2 +1,687 @@
 # Responsive-Portfolio-Website
 A responsive portfolio website is a dynamic online platform designed to showcase our professional's work, skills, and achievements in a user-friendly manner. This type of website adapts seamlessly to various devices, including desktops, tablets, and smartphones, ensuring an optimal viewing experience across all screen sizes.
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kritika's Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="avatar.png" alt="KRITIKA DEWANGAN" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="abc">abc</h1>
+
+          <p class="title">Front-end developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:abc@gmail.com" class="contact-link">abc@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 1234567890" class="contact-link">+91 1234567890</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="11-03-2003">Mar 11, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chhattisgarh</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--#main-content-->
+
+    <div class="main-content">
+
+      <!--#NAVBAR-->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--#ABOUT-->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            To achieve high career growth through continuous learning. I would like to adapt to the contemporary scenario by grabbing the best opportunity possible.
+            I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          </p>
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way.
+          </p>
+        </section>
+
+
+        <!--service-->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="web design.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Design website using figma. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="web development.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Develop website using front-end skills.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="graphic design.png" alt="graphic design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                <p class="service-item-text">
+                  Design application for IOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="logo design.png" alt="logo icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design logo</h4>
+
+                <p class="service-item-text">
+                  I make high-quality logo.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+ 
+          <!--testimonials modal-->
+  
+          <div class="modal-container" data-modal-container>
+  
+            <div class="overlay" data-overlay></div>
+  
+            <section class="testimonials-modal">
+  
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+  
+              <div class="modal-img-wrapper">
+            
+              </div>
+  
+            </section>
+  
+          </div>
+    
+
+
+        <!--clients-->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Designs</h3>
+            
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="Ghungroo.png" alt="My logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="HEALTH MONITOR.png" alt="My logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="kritika.png" alt="My logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="kritika (1).png" alt="My logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+                <a href="#">
+                  <img src="1.png" alt="My logo">
+                </a>
+              </li>
+  
+              <li class="clients-item">
+                <a href="#">
+                  <img src="3.png" alt="My logo">
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="foodhunt.png" alt="My logo">
+                </a>
+              </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <video width="200" height="200" autoplay muted>
+                    <source src="winter.mp4" type="video/mp4">
+                    <source src="winter.mp4" type="video/ogg">
+                  </video>
+                  
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <video width="200" height="200" autoplay muted>
+                    <source src="BATA.mp4" type="video/mp4">
+                    <source src="BATA.mp4" type="video/ogg">
+                  </video>
+                
+                  
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--#RESUME-->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">College</h4>
+
+              <span>2021 - 2025</span>
+
+              <p class="timeline-text">
+                University - Chhattisgarh Swami Vivekanand Technical University, Bhilai, Chhattisgarh.<br>
+                Shri Shankaracharya Institute of Professional Management and Technology, Mujhgahan, Raipur, Chhattisgarh.<br>
+                Aggregate(upto 5th sem) - 7.5 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Schooling</h4>
+
+              <span>2007 - 2021</span>
+            
+              <p class="timeline-text">
+                Shri Ram Krishna Public School, Kawardha, Chhattisgarh.<br>
+                10th - 76.4%<br>
+                12th - 72%<br>
+                
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Trainings</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Web Development</h4>
+
+              <span>Jul - Aug 2024</span>
+
+              <p class="timeline-text">
+                Institute - Thought Applied Creations, S/W & Web Consultancy Firm, Raipur, Chhattisgarh.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Python with Data Science </h4>
+
+              <span>Aug - Oct 2023</span>
+
+              <p class="timeline-text">
+                Institute - Feasible Research & Technologies Pvt. Ltd., Raipur, Chhattisgarh. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Designing</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Evrex Tech Pvt. Ltd., Raipur, Chhattisgarh.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic Design</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Language </h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Front-end Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--#PORTFOLIO-->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Web development">
+              <a href="#"></a>
+
+                <h3 class="project-title">Responsive portfolio website</h3>
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Web development">
+              <a href="#">
+
+                <h3 class="project-title">Web automation</h3>
+                <p class="project-category">Web development</p>
+                <a href="https://github.com/kritikadewangan/WEB-AUTOMATION-">click here</a>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="Graphic design">
+              <a href="#">
+
+                <h3 class="project-title">Food Hunt</h3>
+                <p class="project-category">Graphic design</p>
+                <a href = "https://www.figma.com/proto/My1xBD2v421a6bKTqBn3aG/FOOD-HUNT-WEB?node-id=0-1&t=Pcg3tZCO9BDm0ELr-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A3">click here</a>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Graphic design">
+              <a href="#">
+
+                <h3 class="project-title">Evrex</h3>
+                <p class="project-category">Graphic design</p>
+                <a href="https://www.figma.com/proto/1zCEBvvSjKLxQ9fVOFPACq/EVREX--app-UI?node-id=8-89&t=rdaRythBjwQ5qcwB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=26%3A4">click here</a>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Graphic design">
+              <a href="#">
+                 
+                <h3 class="project-title">Health monitor</h3>
+                <p class="project-category">Graphic design</p>
+                <a href="https://www.figma.com/proto/PcUcZwKk18h0voHXILVXHn/Untitled?node-id=37-16&t=j5VOimkxmdsSIHxe-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1">click here</a>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--#CONTACT-->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <script src="script.js"></script>
+
+  <!-- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
