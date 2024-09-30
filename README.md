@@ -1,7 +1,3 @@
-# Responsive-Portfolio-Website
-A responsive portfolio website is a dynamic online platform designed to showcase our professional's work, skills, and achievements in a user-friendly manner. This type of website adapts seamlessly to various devices, including desktops, tablets, and smartphones, ensuring an optimal viewing experience across all screen sizes.
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +29,7 @@ A responsive portfolio website is a dynamic online platform designed to showcase
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="abc">abc</h1>
+          <h1 class="name" title="Kritika Dewangan">KRITIKA DEWANGAN</h1>
 
           <p class="title">Front-end developer</p>
         </div>
@@ -61,7 +57,7 @@ A responsive portfolio website is a dynamic online platform designed to showcase
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:abc@gmail.com" class="contact-link">abc@gmail.com</a>
+              <a href="mailto:kritikadewangan298@gmail.com" class="contact-link">kritikadewangan298@gmail.com</a>
             </div>
 
           </li>
